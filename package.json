@@ -18,7 +18,7 @@
     "sdk"
   ],
   "author": "kameshkishore",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.21.0",
     "@babel/preset-env": "^7.20.2",
@@ -74,7 +74,15 @@
     "react-dom": "^18.2.0",
     "utf-8-validate": "^6.0.3"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kameshkishoreIonixx/sdk-setup.git"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
-  }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
 }

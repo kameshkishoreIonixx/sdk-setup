@@ -1,0 +1,29 @@
+# dependencies
+/node_modules
+
+# TypeScript
+*.tsbuildinfo
+
+# production
+/build
+dist
+/src
+
+# misc
+.DS_Store
+*.pem
+app/.next
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# build
+dist
+
+# test
+coverage
+
+#npm
+/.npmrc
